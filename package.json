@@ -4,12 +4,13 @@
   "description": "AJAX Quiz",
   "main": "index.html",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "jest": "^29.7.0",
-    "jest-fetch-mock": "^3.0.3",
-    "serve": "^14.2.1"
+    "puppeteer": "^21.5.1",
+    "supertest": "^6.3.3"
   },
   "scripts": {
-    "start": "serve .",
-    "test": "jest"
+    "start": "http-server -p 3000",
+    "test": "jest --detectOpenHandles"
   }
 }
