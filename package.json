@@ -2,11 +2,14 @@
   "name": "ajax-quiz",
   "version": "1.0.0",
   "description": "AJAX Quiz",
+  "main": "index.html",
   "devDependencies": {
     "jest": "^29.7.0",
-    "jest-fetch-mock": "^3.0.3"
+    "jest-fetch-mock": "^3.0.3",
+    "serve": "^14.2.1"
   },
   "scripts": {
+    "start": "serve .",
     "test": "jest"
   }
 }

@@ -17,5 +17,13 @@ https://api.github.com/users/{username}/repos
 4. Click on commit to commit your code to GitHub
 
 
+## Usage
+
+```shell
+npm i
+npm start
+```
+
+
 
 
