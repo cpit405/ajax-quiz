@@ -12,8 +12,11 @@ https://api.github.com/users/{username}/repos
 
 ## Instructions
 1. Accept the assignment at the link provided on Teams.
-2. Open the source code in your [CodeSandbox](https://codesandbox.io) by importing your clone repo.
+2. Open the source code in your [CodeSandbox](https://codesandbox.io) by importing your cloned repo.
 3. Complete the code in `script.js`
+ - You'll need to show a list of repositories for the given user as shown below:
+   ![](./AJAX-Quiz.png)
+
 4. Click on commit to commit your code to GitHub
 
 
